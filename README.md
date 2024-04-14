@@ -24,5 +24,4 @@ Studio/ Apps <p align="center">
 
 <div align="center">
 
-![Medio Bannerpsd](https://github.com/cano696969/Curso-JavaEclipse/assets/158393938/78b08569-a68f-4590-b13e-a117d52c396a)
-
+![studioblank](https://github.com/cano696969/Lab-Studio-Apps/assets/158393938/01100871-1cd0-48c7-9b26-2d6e85320596)
