@@ -1,0 +1,3 @@
+- I colori sono applicati più fluidamente.
+- Il testo nei controlli del player scrollano automaticamente quando troppo lungo.
+- Miglioramenti codice.

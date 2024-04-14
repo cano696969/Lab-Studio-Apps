@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.apk
+*.jks
+/app/debug/
+/app/release/
+/*.hprof
+/.idea/deploymentTargetDropDown.xml
+\.idea\.wiseGPT\

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#d32f2f</color>
+    <color name="pink">#c2185b</color>
+    <color name="purple">#7b1fa2</color>
+    <color name="deep_purple">#512da8</color>
+    <color name="indigo">#303f9f</color>
+    <color name="blue">#1976d2</color>
+    <color name="light_blue">#0288d1</color>
+    <color name="cyan">#0097a7</color>
+    <color name="teal">#00796b</color>
+    <color name="green">#388e3c</color>
+    <color name="light_green">#689f38</color>
+    <color name="lime">#afb42b</color>
+    <color name="yellow">#fbc02d</color>
+    <color name="amber">#ffa000</color>
+    <color name="orange">#f57c00</color>
+    <color name="deep_orange">#e64a19</color>
+    <color name="brown">#5d4037</color>
+    <color name="grey">#616161</color>
+    <color name="blue_grey">#455a64</color>
+
+    <color name="widgets_color">#212121</color>
+
+    <color name="def_system_bars_color">#20111111</color>
+    <color name="status_bar_color">@color/def_system_bars_color</color>
+    <color name="nav_bar_color">@color/status_bar_color</color>
+    <color name="nav_bar_color_sheets">@color/nav_bar_color</color>
+
+    <color name="main_bg">#fcfcfc</color>
+    <color name="toolbar_bg">@color/main_bg</color>
+</resources>

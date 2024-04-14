@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><!-- the album's cover -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="32dp"
+    android:layout_marginBottom="24dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/np_cover"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_width"
+        android:layout_gravity="center"
+        android:background="?attr/colorPrimary"
+        android:contentDescription="@string/covers_pref_title"
+        android:scaleType="centerInside"
+        app:shapeAppearanceOverlay="@style/ImageView.Cover"
+        app:srcCompat="@drawable/ic_music_note_cover" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/np_playback_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?android:attr/actionBarItemBackground"
+            android:contentDescription="@string/content_playback_speed"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_speed" />
+
+        <ImageButton
+            android:id="@+id/np_save_time"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?android:attr/actionBarItemBackground"
+            android:contentDescription="@string/favorites_save_time"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_save_time" />
+
+        <ImageButton
+            android:id="@+id/np_equalizer"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?android:attr/actionBarItemBackground"
+            android:contentDescription="@string/equalizer"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_equalizer" />
+
+        <ImageButton
+            android:id="@+id/np_love"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?android:attr/actionBarItemBackground"
+            android:contentDescription="@string/favorite_add"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_favorite" />
+
+        <ImageButton
+            android:id="@+id/np_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?android:attr/actionBarItemBackground"
+            android:contentDescription="@string/content_repeat"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_repeat_one_disabled" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/np_pause_on_end"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@drawable/button_icon"
+            android:contentDescription="@string/continue_on_end_desc"
+            android:padding="4dp"
+            app:buttonTint="@drawable/button_tint" />
+    </LinearLayout>
+</LinearLayout>

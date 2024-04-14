@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HeaderTextView">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleWidget">
+        <attr name="titleText" format="string" />
+        <attr name="summaryText" format="string" />
+        <attr name="iconSpaceReserved" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MenuWidget">
+        <attr name="titleText" />
+        <attr name="summaryText" />
+        <attr name="icon" format="reference" />
+        <attr name="iconSpaceReserved" />
+        <attr name="showEndArrow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchWidget">
+        <attr name="titleText" />
+        <attr name="summaryText" />
+        <attr name="icon" />
+        <attr name="iconSpaceReserved" />
+        <attr name="isChecked" format="boolean" />
+        <attr name="isMasterSwitch" format="boolean" />
+        <attr name="summaryOnText" format="string" />
+        <attr name="summaryOffText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SeekbarWidget">
+        <attr name="titleText" />
+        <attr name="summaryText" />
+        <attr name="seekbarProgress" format="integer" />
+        <attr name="seekbarMinProgress" format="integer" />
+        <attr name="seekbarMaxProgress" format="integer" />
+        <attr name="progressFormat" format="string" />
+        <attr name="seekbarDefaultProgress" format="integer" />
+        <attr name="isDecimalFormat" format="boolean" />
+        <attr name="decimalFormat" format="string" />
+        <attr name="outputScale" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorPickerWidget">
+        <attr name="titleText" />
+        <attr name="summaryText" />
+        <attr name="previewColor" format="reference" />
+        <attr name="icon" />
+        <attr name="iconSpaceReserved" />
+    </declare-styleable>
+
+    <declare-styleable name="FilePickerWidget">
+        <attr name="titleText" />
+        <attr name="summaryText" />
+        <attr name="buttonText" format="string" />
+        <attr name="filePickerType" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioDialogWidget">
+        <attr name="titleText" />
+        <attr name="summaryText" />
+        <attr name="icon" />
+        <attr name="iconSpaceReserved" />
+        <attr name="entries" format="reference" />
+        <attr name="showSelectedPrefix" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectableViewWidget">
+        <attr name="titleText" />
+        <attr name="descriptionText" format="reference" />
+        <attr name="isSelected" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="StylePreviewWidget">
+        <attr name="titleText" />
+        <attr name="descriptionText" />
+        <attr name="isSelected" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorPickerTheme">
+        <attr name="redColor" format="color" />
+        <attr name="greenColor" format="color" />
+        <attr name="blueColor" format="color" />
+        <attr name="neutralColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,18 @@
+<b>Music Player GO</b> is a minimal yet fully-featured local music player aiming at <b>simplicity</b> and performance.
+
+<b>Features</b>
+
+- Minimal interface
+- Equalizer
+- Music organised by artist, albums, songs and folders; tabs are organisable
+- Light, dark, automatic themes and accents
+- Pure black theme
+- Queue
+- Sleep timer
+- Audio focus, precise volume and headset management
+- Now playing, embedded covers, search, playback speed, pause on completion, sorting, shuffle, fast-seeking...
+
+
+<b>Want to contribute to translations?</b>
+
+Join us at <a href="https://hosted.weblate.org/engage/music-player-go/">Weblate</a>

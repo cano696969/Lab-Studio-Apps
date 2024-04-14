@@ -1,0 +1,23 @@
+name: Question
+description: Ask a question
+title: "[Q&A]: "
+labels: ["question"]
+assignees:
+  - enricocid
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What are You thinking?
+      description: Ask me a question, any question!
+      placeholder: Ask me things!
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Nice things
+      description: By submitting this issue, you agree to not yell at the developer if response is slow.
+      options:
+        - label: We can have
+          required: true
