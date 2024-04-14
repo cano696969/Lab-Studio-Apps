@@ -5,7 +5,7 @@ Studio/ Apps <p align="center">
 
 <div class="contenedor deslizante" style="ancho: 70%; margen: auto;">
 
- <p align="justify">Este repositorio contiene material didáctico y ejercicios prácticos para un curso de introducción a Java utilizando el entorno de desarrollo Eclipse. El curso está diseñado para brindar a los estudiantes una sólida comprensión de los fundamentos de la programación en Java, así como familiarizarlos con las características y herramientas proporcionadas por Eclipse para el desarrollo de software. Los materiales incluyen tutoriales paso a paso, ejemplos de código y proyectos prácticos para ayudar a los estudiantes a desarrollar sus habilidades en Java y Eclipse.</p>
+ <p align="justify">Este repositorio es un espacio dedicado a la exploración y experimentación con diferentes frameworks y tecnologías para el desarrollo de aplicaciones Android. Desde las últimas características de Jetpack hasta las tendencias emergentes en diseño de interfaz y arquitectura, aquí encontrarás proyectos de prueba, ejemplos y documentación para explorar y aprender. Únete a nosotros mientras construimos y probamos el futuro de las aplicaciones Android.".</p>
   <p align="center">
      <a href="#">
             <img src="https://img.shields.io/badge/Sistema%20Operativo-Windows-blue?style=for-the-badge&logo=windows" alt="Sistema Operativo Windows">
