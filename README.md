@@ -1,6 +1,6 @@
- Java - Eclipse IDE
-<p align="center">
-    <h2 align="center">Curso Introducción - Java Eclipse</h2>
+Studio/ Apps <p align="center">
+    <h2 align="center">Android Studio Apps</h2>
+    <h3 align="center">Apps Beta integrations</h3>
 </p>
 
 <div class="contenedor deslizante" style="ancho: 70%; margen: auto;">
